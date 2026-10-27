@@ -1,0 +1,30 @@
+<resources>
+    <properties>
+        <property id="custom1Name" type="string">Custom 1</property>
+        <property id="custom1Steps" type="string"></property>
+        <property id="custom2Name" type="string">Custom 2</property>
+        <property id="custom2Steps" type="string"></property>
+        <property id="custom3Name" type="string">Custom 3</property>
+        <property id="custom3Steps" type="string"></property>
+    </properties>
+    <settings>
+        <setting propertyKey="@Properties.custom1Name" title="@Strings.Custom1Name">
+            <settingConfig type="alphaNumeric" maxLength="24"/>
+        </setting>
+        <setting propertyKey="@Properties.custom1Steps" title="@Strings.Custom1Steps">
+            <settingConfig type="alphaNumeric" maxLength="1600"/>
+        </setting>
+        <setting propertyKey="@Properties.custom2Name" title="@Strings.Custom2Name">
+            <settingConfig type="alphaNumeric" maxLength="24"/>
+        </setting>
+        <setting propertyKey="@Properties.custom2Steps" title="@Strings.Custom2Steps">
+            <settingConfig type="alphaNumeric" maxLength="1600"/>
+        </setting>
+        <setting propertyKey="@Properties.custom3Name" title="@Strings.Custom3Name">
+            <settingConfig type="alphaNumeric" maxLength="24"/>
+        </setting>
+        <setting propertyKey="@Properties.custom3Steps" title="@Strings.Custom3Steps">
+            <settingConfig type="alphaNumeric" maxLength="1600"/>
+        </setting>
+    </settings>
+</resources>

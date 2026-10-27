@@ -1,0 +1,9 @@
+<strings>
+    <string id="AppName">Sourdough Timer</string>
+    <string id="Custom1Name">Custom recipe 1 name</string>
+    <string id="Custom2Name">Custom recipe 2 name</string>
+    <string id="Custom3Name">Custom recipe 3 name</string>
+    <string id="Custom1Steps">Recipe 1: Label|minutes;Label|minutes (0 = action)</string>
+    <string id="Custom2Steps">Recipe 2: Label|minutes;Label|minutes (0 = action)</string>
+    <string id="Custom3Steps">Recipe 3: Label|minutes;Label|minutes (0 = action)</string>
+</strings>
